@@ -1,4 +1,4 @@
-baseurl = "casacun.com"
+baseurl = "https://casacun.com"
 title = "CasaCun"
 theme = "hugo-nederburg-theme"
 languageCode = "es-mx"
