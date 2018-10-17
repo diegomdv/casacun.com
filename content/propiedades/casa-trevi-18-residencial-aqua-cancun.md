@@ -67,7 +67,7 @@ Cuenta con un sótano donde se encuentra el cuarto de maquinas (bombas de alberc
 ## Galería:
 {{< gallery dir="/img/residencial-aqua-trevi-18/galeria" width="300px;" />}} {{< load-photoswipe >}}
 
-
+<!--
 17
 Sot: 31.69
 P-B: 71.79
@@ -93,3 +93,4 @@ P-B: 61.43
 2do: 21.49
 
 Total: 198
+-->
