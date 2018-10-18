@@ -1,0 +1,30 @@
+<!--
+by @DiegoMDV
+Netlify Form
+
+Can be passed variables to tailor form:
+
+sProperty: Real Estate property where this was sent from
+sLocation: Where on the site it was sent from
+... (more comming)
+
+-->
+<div class="author-meta">
+	<form name="contact" method="POST" netlify>
+	  <p>
+	    <label>Nombre: <input type="text" name="name" /></label>   
+	  </p>
+	  <p>
+	    <label>Email: <input type="email" name="email" /></label>
+	  </p>
+	  <p>
+	    <label>Teléfono: <input type="tel" name="telephone" /></label>   
+	  </p>
+	    <label>Mensaje: <textarea name="message"></textarea></label>
+	  </p>
+	  <p>
+	    <button type="submit">Send</button>
+	  </p>
+{{ with $.Get "sProperty" }}<input type="hidden" name="property" value="{{ . }}" />{{ end }}
+	</form>
+</div>

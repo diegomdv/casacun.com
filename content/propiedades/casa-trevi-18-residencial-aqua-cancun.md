@@ -16,6 +16,10 @@ xRecamaras = "3"
 xBanos = "3 1/2"
 xPisos = "4"
 xEstacionamiento = "2"
+
+# Ejemplo: https://propiedadescancun.mx/propiedad/casa-venta-residencial-aqua-cancun-venused15/
+# Ejemplo: https://www.point2homes.com/MX/Real-Estate-Listings/Quintana-Roo/Cancun.html
+
 +++
 
 <!--more-->
@@ -66,6 +70,8 @@ Cuenta con un sótano donde se encuentra el cuarto de maquinas (bombas de alberc
 
 ## Galería:
 {{< gallery dir="/img/residencial-aqua-trevi-18/galeria" width="300px;" />}} {{< load-photoswipe >}}
+
+{{< form-contact sProperty="Casa Trevi 18 Aqua Cancún" >}}
 
 <!--
 17
